@@ -1,0 +1,28 @@
+<model-viewer src="render5_plus_object.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="435.4deg 58.03deg 159.2m" field-of-view="22.98deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="-14.673516834480536m -0.5639757291200964m 0.2850114613855719m" data-normal="0.9999934475171942m 0.00012622702172463402m -0.003617870840080701m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ruang Utama</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-3.005854037863587m 3.105706025389938m 15.648335138082246m" data-normal="-0.00011625805384934356m 0.9999919838313119m 0.00400234396102599m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ruang Terbuka Selatan</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-4.009373461827516m 6.186702658746331m 29.180415547680425m" data-normal="-0.00011165655048373466m 0.9999919836807131m 0.004002512601761258m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Menara Selatan</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-12.687092472207103m 0.0899041969923422m 21.998564812971246m" data-normal="-0.0001115211500822859m 0.9999919815618684m 0.0040030457155933955m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Taman Belakang Selatan</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-3.179018968452368m 3.115710613068917m -12.731511492566224m" data-normal="0.003617981787986405m -0.004002678738948792m 0.9999854442794129m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ruang Terbuka Utara</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-2.3758402286506826m 6.39852335029328m -23.69696383114696m" data-normal="-0.0001116294750558941m 0.9999919844618655m 0.0040023181883424705m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Menara Utara</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-24.456494725842283m 3.8106657380997713m 2.175802846066503m" data-normal="-0.00011172718563840494m 0.9999919854585619m 0.0040020664261445115m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Benteng Belakang</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="5.657393419690425m 0.2611401986689046m 0.8554875386981422m" data-normal="-0.00011164183152556846m 0.9999919843775802m 0.0040023389025870834m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Benteng Depan</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
